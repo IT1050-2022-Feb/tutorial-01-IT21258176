@@ -5,7 +5,12 @@
 #include <stdio.h>
 
 int main() {
-  
+  int num1, num2;
+  printf("Enter num1 and num2>>> ");
+  scanf("%d %d", &num1, &num2);
+  const int total = num1 + num2;
+  const float average = total / 2.0;
+  printf("Average : %.2f\n", average);
   return 0;
 }
 

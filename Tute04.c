@@ -6,6 +6,18 @@ Do not change the code given in the main() function when you are implementing yo
 
 #include <stdio.h>
 
+int minimum(int a, int b) {
+   return a < b ? a : b;
+}
+
+int maximum(int a, int b) {
+   return a > b ? a : b;
+}
+
+int multiply(int a, int b) {
+   return a * b;
+}
+
 int main() {
    int no1, no2;
    printf("Enter a value for no 1 : ");
